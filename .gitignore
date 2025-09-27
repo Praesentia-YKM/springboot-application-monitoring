@@ -1,0 +1,53 @@
+# =================================================================
+# JetBrains IDE (IntelliJ IDEA)
+# https://www.toptal.com/developers/gitignore/api/intellij
+# =================================================================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# =================================================================
+# Gradle
+# https://www.toptal.com/developers/gitignore/api/gradle
+# =================================================================
+.gradle/
+build/
+
+# Gradle Wrapper: gradle-wrapper.jar는 버전 관리에 포함하여
+# 다른 개발자들도 동일한 Gradle 버전을 사용하도록 강제하는 것이 좋습니다.
+# 따라서 .gradle/ 폴더는 무시하되, wrapper 관련 파일은 예외 처리합니다.
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# =================================================================
+# Kotlin
+# https://www.toptal.com/developers/gitignore/api/kotlin
+# =================================================================
+# Kotlin 컴파일 캐시 및 빌드 파일
+*.kotlin_module
+*.script.kts
+
+# =================================================================
+# Spring Boot & Application Logs
+# =================================================================
+# 로그 파일
+*.log
+logs/
+
+# PID (Process ID) 파일
+*.pid
+*.pid.fail
+
+# =================================================================
+# Operating System Files (macOS)
+# https://www.toptal.com/developers/gitignore/api/macos
+# =================================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
