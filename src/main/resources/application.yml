@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: monitoring
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,env,loggers
+  endpoint:
+    health:
+      show-details: always
+
+      # localhost:8080/actuator ? actuator? ?? ???
