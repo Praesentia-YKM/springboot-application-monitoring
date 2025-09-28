@@ -22,7 +22,7 @@ services:
   grafana:
     image: grafana/grafana
     ports:
-      - "3000:3000"
+      - "3000:3000" # http://localhost:3000 그라파나접속 id: admin , pw: 1234
     networks:
       - monitoring
     environment:
